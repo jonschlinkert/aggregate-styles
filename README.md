@@ -14,17 +14,16 @@ npm i -g consolidate-styles --save-dev
 bower install consolidate-styles
 ```
 
-## scripts( html )
+## styles( html )
 
-* `html`: pass a string of HTML with the script tags to be parsed
-* returns an array, an object for each script tag, each with a `attrs` property and a `html` property.
+Pass a string of HTML with the link or style tags to be consolidated.
 
 Example:
 
 ```js
-var scripts = require("consolidate-styles");
+var styles = require("consolidate-styles");
 var html = require('fs').readFileSync('index.html')
-scripts(html);
+styles(html);
 ```
 
 See [example](./test/example.json).

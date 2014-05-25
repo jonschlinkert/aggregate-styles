@@ -1,7 +1,7 @@
 {
   "name": "consolidate-styles",
   "description": "Find style and link tags in HTML, consolidate and append them to the <head> tag.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/consolidate-styles",
   "author": {
     "name": "Jon Schlinkert",
