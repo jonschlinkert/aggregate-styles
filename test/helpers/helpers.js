@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs-utils');
-const scripts = require('../../styles');
+const scripts = require('../..');
 
 
 exports.readFixtures = function(src) {
